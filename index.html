@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment 6 – jQuery Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="profile">
+    <h1 id="title">Welcome to My Portfolio</h1>
+    <h3 class="headline">Akerke – Future Aitishnik</h3>
+    <p class="intro">Hi! I am a student in AITU.</p>
+    <button id="change-headline">Change Headline</button>
+    <button id="light-btn">Light Theme</button>
+    <button id="dark-btn">Dark Theme</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I study IT and I like building websites.</p>
+      <p id="status">Currently learning jQuery!</p>
+      <ul id="facts">
+        <li>I love reading books.</li>
+        <li>I watch doramas on weekends.</li>
+        <li>My goal is to become a developer.</li>
+      </ul>
+      <button id="hide-btn">Hide</button>
+      <button id="show-btn">Show</button>
+      <button id="toggle-btn">Toggle</button>
+    </section>
+
+    <section>
+      <h2>Gallery</h2>
+      <img class="photo" src="image1.jpg" alt="Photo 1">
+      <img class="photo" src="image2.jpg" alt="Photo 2">
+      <div>
+        <button id="fadein-btn">Fade In</button>
+        <button id="fadeout-btn">Fade Out</button>
+        <button id="fadetoggle-btn">Fade Toggle</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Favorites</h2>
+      <h3 class="panel-title">My Favorite Music</h3>
+      <div class="panel">Pop and rnb music.</div>
+      <h3 class="panel-title">My Favorite Movie</h3>
+      <div class="panel">Soulmate.</div>
+      <h3 class="panel-title">My Favorite Subject</h3>
+      <div class="panel">Math.</div>
+      <button id="slideup-btn">Slide Up All</button>
+      <button id="slidedown-btn">Slide Down All</button>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul id="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+      </ul>
+      <input type="text" id="skill-input" placeholder="New skill">
+      <button id="add-skill">Add Skill</button>
+      <button id="prepend-skill">Prepend Skill</button>
+      <button id="remove-skill">Remove Skill</button>
+      <p id="skill-msg"></p>
+    </section>
+
+    <section>
+      <h2>My Links</h2>
+      <p><a id="social-link" href="https://github.com/akerkeberdakul" target="_blank">My GitHub</a></p>
+      <button id="change-link">Change Link to LinkedIn</button>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form id="contact-form">
+        <input type="text" id="name-input" placeholder="Name">
+        <input type="email" id="email-input" placeholder="Email">
+      </form>
+      <p>Name: <strong id="name-out"></strong></p>
+      <p>Email: <strong id="email-out"></strong></p>
+    </section>
+
+    <section>
+      <h2>Skill Levels</h2>
+      <p>HTML</p>
+      <div class="bar-box"><div class="bar" data-level="90"></div></div>
+      <p>CSS</p>
+      <div class="bar-box"><div class="bar" data-level="75"></div></div>
+      <p>JavaScript</p>
+      <div class="bar-box"><div class="bar" data-level="60"></div></div>
+      <button id="animate-btn">Animate My Skills</button>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

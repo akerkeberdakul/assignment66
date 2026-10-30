@@ -1,0 +1,85 @@
+body { 
+    margin: 0; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    background: #F4F3F1; 
+    color: #434d20; 
+    font-family: Luminari, fantasy; 
+}
+h1, h2, h3, p, li, button, input { 
+    font-family: Luminari, fantasy; 
+}
+header { 
+    background: #e9839D; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 24px 16px; 
+}
+main { 
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 16px; 
+}
+section { 
+    background: #F1CFE1; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin-bottom: 16px; 
+}
+h1 { 
+    font-size: 36px; 
+    margin: 0; 
+}
+h2 { 
+    margin-top: 0; 
+}
+button { 
+    margin: 8px 4px 0 0; 
+    padding: 8px 14px; 
+    border: none; 
+    border-radius: 6px; 
+    background: #9FA881; 
+    color: #F4F3F1; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+button:hover { 
+    background: #434d20; 
+}
+input { 
+    padding: 8px; 
+    margin-right: 4px; 
+    border: 2px solid #9FA881; 
+    border-radius: 6px; 
+    font-size: 16px; 
+}
+.photo { 
+    width: 45%; 
+    max-width: 250px; 
+    border-radius: 8px; 
+}
+.panel-title { 
+    background: #9FA881; 
+    color: #F4F3F1; 
+    padding: 8px; 
+    margin-bottom: 0; 
+    cursor: pointer; 
+}
+.panel { 
+    background: #F4F3F1; 
+    padding: 8px; 
+}
+.bar-box { 
+    background: #F4F3F1; 
+    border-radius: 6px; 
+    height: 24px; 
+}
+.bar { 
+    background: #e9839D; 
+    height: 24px; 
+    width: 0; 
+    border-radius: 6px; 
+}
+#skill-msg { 
+    color: #c0392b; 
+}
